@@ -1,0 +1,12 @@
+# Docker composer file for Linux User
+version: '3.2'
+services:
+  qtsmart-dev:
+    image: bacnh85/qtsmart-dev
+    container_name: qtsmart-dev
+    environment:
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - ./:/opt
+    tty: true   
