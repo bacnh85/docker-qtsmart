@@ -13,6 +13,8 @@ RUN rm /bin/sh && ln -s bash /bin/sh \
      git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev \
      libc6-dev lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev \
      libgl1-mesa-dev g++-multilib mingw32 tofrodos python-markdown libxml2-utils xsltproc \
+     # Fix to include more pkg
+     mkisofs libssl-dev bc \
      # Extra pkg
      openjdk-8-jdk vim \
      # Clean up
